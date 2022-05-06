@@ -1,0 +1,110 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.467);
+}
+
+
+h1{
+    width: auto;
+}
+
+h2{
+    padding: 2px;
+}
+
+/* .frase{
+    width: 175px;
+} */
+.btn-light{
+    background-image: url("https://image.shutterstock.com/image-photo/yellow-blue-pastel-paper-color-260nw-1196241679.jpg");
+    transition: 0.5s;
+    border-color: rgb(92, 102, 102);
+}
+
+.btn-light:hover{
+    background-image: url("https://image.shutterstock.com/image-photo/yellow-blue-pastel-paper-color-260nw-1196241679.jpg");
+    border-color: rgb(253, 212, 71);
+    background-position: 100%;
+}
+
+.btn-outline-light{
+    background-image: url("https://image.shutterstock.com/image-photo/yellow-blue-pastel-paper-color-260nw-1196241679.jpg");
+    transition: 0.5s;
+    border-color: rgb(92, 102, 102);
+    color: black;
+}
+
+.btn-outline-light:hover{
+    background-image: url("https://image.shutterstock.com/image-photo/yellow-blue-pastel-paper-color-260nw-1196241679.jpg");
+    border-color: rgb(253, 212, 71);
+    background-position: 100%;
+}
+
+article{
+    border-radius: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px; */
+    /* width: 250px; */
+    height: 180px;
+    /* min-width: 230px; */
+    /* background-color: rgb(28, 172, 238); */
+    border: 3px;
+    border-color: black;
+    /* margin: 10px; */
+}
+
+.central{
+    text-align: center;
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    max-height: 250px;
+}
+
+.contain{
+    justify-content: center;
+    min-height: 1000px;
+}
+
+.no-punct{
+    list-style: none;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/e9/5a/0d/e95a0df05ed6b97d10034623ebf1e076.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+.flex{
+    justify-content: space-around;
+    max-height: 500px;
+} */
+
+/* 
+@media screen and (min-width: 600px) {
+    .flex{
+        display: flex;
+        max-width: 750px;
+        flex-wrap: wrap;
+    }
+} */
